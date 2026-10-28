@@ -138,7 +138,7 @@
       form.setAttribute('data-mailto', mailtoHref());
       window.location.href = form.getAttribute('data-mailto');
       status.classList.add('is-info');
-      status.textContent = 'Your email app should open with your request ready to send. If it doesn\'t, call or text (989) 525-6503.';
+      status.textContent = 'Your email app should open with your request ready to send. If it doesn\'t, call or text Britt at (989) 525-6503.';
       return;
     }
     var btn = form.querySelector('button[type="submit"]');
@@ -150,7 +150,7 @@
         else { throw new Error(d.message || 'error'); }
       })
       .catch(function () {
-        status.textContent = 'Sorry, something went wrong. Please call or text (989) 525-6503.';
+        status.textContent = 'Sorry, something went wrong. Please call or text Britt at (989) 525-6503.';
         btn.disabled = false;
       });
   });
