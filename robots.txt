@@ -1,0 +1,5 @@
+# TEMPORARY while on the preview host: remove the Disallow line (set "Allow: /") when brittkennedycoaching.com is connected.
+User-agent: *
+Disallow: /
+
+Sitemap: https://brittkennedycoaching.com/sitemap.xml
