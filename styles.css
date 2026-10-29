@@ -360,4 +360,17 @@ textarea{resize:vertical}
 }
 @media (min-width:720px) and (max-width:899px){nav{gap:16px}nav a{font-size:.9rem}.nav-cta{white-space:nowrap}}
 
+.recipe-mac-cheese .card-head{background:var(--accent);color:var(--accent-ink)}
+.recipes-grid-2{margin-top:40px}
+@media (min-width:960px){
+  .recipe-cards-single{grid-template-columns:1fr}
+  .recipe-mac-cheese .card-body{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px}
+  .recipe-mac-cheese .recipe-ingredients{margin-bottom:0}
+}
+.recipe-fried-rice .card-head{background:var(--teal);color:var(--white)}
+.recipes-grid-3{margin-top:40px}
+@media (min-width:960px){
+  .recipe-fried-rice .card-body{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px}
+  .recipe-fried-rice .recipe-ingredients{margin-bottom:0}
+}
 .recipe-yield{margin:0 0 .75rem;font-weight:600;color:var(--accent-text);font-size:.95rem}
