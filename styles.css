@@ -359,3 +359,5 @@ textarea{resize:vertical}
   .recipe-cards{grid-template-columns:1fr 1fr;gap:22px}
 }
 @media (min-width:720px) and (max-width:899px){nav{gap:16px}nav a{font-size:.9rem}.nav-cta{white-space:nowrap}}
+
+.recipe-yield{margin:0 0 .75rem;font-weight:600;color:var(--accent-text);font-size:.95rem}
